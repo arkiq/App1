@@ -10,9 +10,9 @@
 
     <Grid>
         <Button x:Name="btnClickMe" Content="click me!" HorizontalAlignment="Left" 
-                VerticalAlignment="Top" Margin="121,361,0,0"/>
+                VerticalAlignment="Top" Margin="121,361,0,0" Click="btnClickMe_Click"/>
         <TextBlock x:Name="tblHelloWorld" HorizontalAlignment="Left" 
-                   TextWrapping="Wrap" Text="Hello World" 
+                   TextWrapping="Wrap" Text="Guess what goes here!" 
                    VerticalAlignment="Top" FontSize="36" 
                    Margin="90,219,0,0"/>
         <!-- 1. Add a button to this section by selecting the button icon 

@@ -44,5 +44,11 @@ namespace App1
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
         }
+
+        private void btnClickMe_Click(object sender, RoutedEventArgs e)
+        {
+            // added an event handler to show some text
+            tblHelloWorld.Text = "Hello World!";
+        }
     }
 }

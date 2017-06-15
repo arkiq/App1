@@ -48,7 +48,7 @@ namespace App1
         private void btnClickMe_Click(object sender, RoutedEventArgs e)
         {
             // added an event handler to show some text
-            tblHelloWorld.Text = "Hello World!";
+            tblHelloWorld.Text = "Hello cruel World!";
         }
     }
 }
